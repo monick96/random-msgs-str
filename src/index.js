@@ -1,3 +1,4 @@
+// Array que contiene una colección de citas divertidas de la serie "Los Soprano".
 const sopranosQuotes = [
     "I’m like King Midas in reverse, everything I touch turns to shit. - Tony Soprano",
     "You know, it wasn't long ago I remember you used to wait in the car. And as far as I'm concerned you should still be there. - Junior Soprano", 
@@ -16,11 +17,14 @@ const sopranosQuotes = [
     "I’m like King Midas in reverse. Everything I touch turns to shit. - Tony Soprano"
   ];
 
-  const funnyCommit = () => {
+// Función para generar una cita divertida aleatoria de "Los Soprano" y mostrarla en la consola.
+const funnyCommit = () => {
+    // Selecciona una cita aleatoria del array sopranosQuotes usando Math.random() y Math.floor().
     const Squotes = sopranosQuotes[Math.floor(Math.random() * sopranosQuotes.length)];
+    // Muestra la cita seleccionada en la consola con un formato especial de color azul claro (código ANSI).
     console.log(`\x1b[34m${Squotes}\x1b[89m`);
   }
-
+// Exporta la función funnyCommit para que pueda ser utilizada en otros archivos.
   module.exports = {
     funnyCommit
   };
