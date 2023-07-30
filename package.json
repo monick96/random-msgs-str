@@ -1,5 +1,5 @@
 {
-  "name": "npm-package",
+  "name": "random-msgs-str",
   "version": "1.0.0",
   "description": "create a package for npm page, random messages strings",
   "main": "index.js",
@@ -16,8 +16,5 @@
   "bin": {
     "random-msgs-str": "./bin/global.js"
   },
-  "preferGlobal": true,
-  "dependencies": {
-    "g": "^2.0.1"
-  }
+  "preferGlobal": true
 }
