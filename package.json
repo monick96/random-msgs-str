@@ -1,0 +1,23 @@
+{
+  "name": "npm-package",
+  "version": "1.0.0",
+  "description": "create a package for npm page, random messages strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "node"
+  ],
+  "author": "Monica Melgarejo <monimelgarejo75@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "random-msgs-str": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "g": "^2.0.1"
+  }
+}
